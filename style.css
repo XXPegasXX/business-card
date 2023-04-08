@@ -1,3 +1,19 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Georgia, serif;;
+}
+
+.header {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;   
+    padding: 0 100px 0 20px;
+}
 .aboutMyself {
     width: 600px;
 }
@@ -16,4 +32,11 @@
     width: 200px;
     height: 200px;
     object-fit: contain;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-right: 100px;
 }
