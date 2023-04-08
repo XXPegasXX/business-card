@@ -1,0 +1,19 @@
+.aboutMyself {
+    width: 600px;
+}
+.aboutMyself_data{
+    display: flex;
+    flex-direction: row;
+    
+}
+.aboutMyself_header{
+    text-align: left;
+}
+.aboutMyself_info{
+    padding-left: 20px;
+}
+.aboutMyself_photo>img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
